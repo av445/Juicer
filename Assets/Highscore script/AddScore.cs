@@ -19,7 +19,6 @@ public class AddScore : MonoBehaviour
 
     public void addplayerscore()
     {
-        
-    //  addScore += points;
+      //  addScore += points;
     }
 }
