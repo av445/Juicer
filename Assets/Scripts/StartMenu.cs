@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    
+    public Animator options;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,14 @@ public class StartMenu : MonoBehaviour
     }
     public void Options()
     {
-        Camera.current.transform.Translate(new Vector2(10, 0));
+        options.SetTrigger("options");
+    }
+    public void QuitGame() 
+    {
+        Application.Quit();
+    }
+    public void BackToMenu()
+    {
+        
     }
 }
