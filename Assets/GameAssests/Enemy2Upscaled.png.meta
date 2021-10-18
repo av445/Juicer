@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 538bb08db99f27743951a4dc59d3257a
+guid: b69b3791b2dd19845994a51ee15dbc85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2855789857158636293
-    second: EnemyBoomUpscaled_0
+      213: 8260353769344575523
+    second: Enemy2Upscaled_0
   - first:
-      213: 6960406989093669426
-    second: EnemyBoomUpscaled_1
+      213: -7556345999892203780
+    second: Enemy2Upscaled_1
   - first:
-      213: 7958893250998350587
-    second: EnemyBoomUpscaled_2
+      213: 3215692261707057273
+    second: Enemy2Upscaled_2
   - first:
-      213: -1853506000718681042
-    second: EnemyBoomUpscaled_3
-  - first:
-      213: -2936823837208540340
-    second: EnemyBoomUpscaled_4
-  - first:
-      213: 3775937731035029336
-    second: EnemyBoomUpscaled_5
-  - first:
-      213: 5769674296905373711
-    second: EnemyBoomUpscaled_6
-  - first:
-      213: -2386517618584551923
-    second: EnemyBoomUpscaled_7
+      213: -1688697102181548119
+    second: Enemy2Upscaled_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 160
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemyBoomUpscaled_0
+      name: Enemy2Upscaled_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 640
-        width: 320
-        height: 320
+        y: 160
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503aa159ebdc1a720800000000000000
-      internalID: 2855789857158636293
+      spriteID: 328a7dcecfba2a270800000000000000
+      internalID: 8260353769344575523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBoomUpscaled_1
+      name: Enemy2Upscaled_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 640
-        width: 320
-        height: 320
+        x: 160
+        y: 160
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,104 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a031d5745589060800000000000000
-      internalID: 6960406989093669426
+      spriteID: cf63b7c2957722790800000000000000
+      internalID: -7556345999892203780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBoomUpscaled_2
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 640
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf2b2076e3ba37e60800000000000000
-      internalID: 7958893250998350587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EnemyBoomUpscaled_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2cab16dc160746e0800000000000000
-      internalID: -1853506000718681042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EnemyBoomUpscaled_4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4b094fa74e4e37d0800000000000000
-      internalID: -2936823837208540340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EnemyBoomUpscaled_5
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85f56505c53d66430800000000000000
-      internalID: 3775937731035029336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EnemyBoomUpscaled_6
+      name: Enemy2Upscaled_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 320
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f081fb83430021050800000000000000
-      internalID: 5769674296905373711
+      spriteID: 9788506131f60ac20800000000000000
+      internalID: 3215692261707057273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBoomUpscaled_7
+      name: Enemy2Upscaled_3
       rect:
         serializedVersion: 2
-        x: 320
+        x: 160
         y: 0
-        width: 320
-        height: 320
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0e7e06ced261eed0800000000000000
-      internalID: -2386517618584551923
+      spriteID: 9afbc33ceea8098e0800000000000000
+      internalID: -1688697102181548119
       vertices: []
       indices: 
       edges: []
