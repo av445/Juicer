@@ -10474,12 +10474,12 @@ PrefabInstance:
     - target: {fileID: 5083371894590681553, guid: 7156f1e4130159d47a4a6f465e73f77c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.22752571
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5083371894590681553, guid: 7156f1e4130159d47a4a6f465e73f77c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6418467
+      value: -0.66
       objectReference: {fileID: 0}
     - target: {fileID: 5083371894590681553, guid: 7156f1e4130159d47a4a6f465e73f77c,
         type: 3}
@@ -10531,6 +10531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5083371894590681559, guid: 7156f1e4130159d47a4a6f465e73f77c,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1330376019}
     - target: {fileID: 5083371894590681559, guid: 7156f1e4130159d47a4a6f465e73f77c,
         type: 3}
       propertyPath: Doge
