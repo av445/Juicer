@@ -5,25 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animator options;
+    public Animator MenuToOption;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public Animator Controls;
+    public Animator ControlsToMenu;
     public void start()
     {
         SceneManager.LoadScene(1);
     }
+    public void Quite()
+    {
+        Application.Quit();
+    }
     public void Options()
     {
-        Camera.current.transform.Translate(new Vector2(10, 0));
+        options.SetTrigger("ToOptions");
+    }
+    public void MenuToOptions()
+    {
+        MenuToOption.SetTrigger("MenuToOptions");
+    }
+
+    public void Controlls()
+    {
+        Controls.SetTrigger("Controlls");
+    }
+    public void MenuToControlls()
+    {
+        ControlsToMenu.SetTrigger("ControllsToMenu");
     }
 }
