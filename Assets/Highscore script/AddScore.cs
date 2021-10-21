@@ -14,15 +14,16 @@ public class AddScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-    }
-
-    void Plusscore()
-    {
-        if (Input.GetButtonDown("Space"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ScoreManager.instance.Addpoint();
         }
+    }
+
+    // när fienden dör kallar den här meoden på scoremanager scriptet och lägger till ett poäng - Thea
+    void Plusscore()
+    {
+       
         
     }
     
