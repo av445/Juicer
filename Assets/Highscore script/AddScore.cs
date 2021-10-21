@@ -14,10 +14,9 @@ public class AddScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ScoreManager.instance.Addpoint();
-        }
+        
+
+        
     }
 
     // när fienden dör kallar den här meoden på scoremanager scriptet och lägger till ett poäng - Thea

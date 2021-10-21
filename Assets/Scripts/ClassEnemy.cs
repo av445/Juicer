@@ -30,6 +30,7 @@ public class ClassEnemy : MonoBehaviour
 
     void Die()
     {
+        ScoreManager.instance.Addpoint();
         Destroy(gameObject);
     }
     public void damage()
