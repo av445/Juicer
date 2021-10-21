@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AddScore : MonoBehaviour
 {
-    public int score;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +14,20 @@ public class AddScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ScoreManager.instance.Addpoint();
+        }
     }
 
-    public void addplayerscore()
+    // när fienden dör kallar den här meoden på scoremanager scriptet och lägger till ett poäng - Thea
+    void Plusscore()
     {
+       
         
-    //  addScore += points;
     }
+    
+    
+
+
 }
