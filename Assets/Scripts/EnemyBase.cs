@@ -49,10 +49,11 @@ public class EnemyBase : MonoBehaviour
     {
         while (true)
         {
-            // Vector3 enemyspawn = new Vector3(Random.Range(-8, 8f), 7f, 0);
+            
             Vector3 enemyspawn = transform.position;
             Instantiate(enemy, enemyspawn, Quaternion.identity);
             yield return new WaitForSeconds(WaitTime);
         }
     }
 }
+//Ludvig
