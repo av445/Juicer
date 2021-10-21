@@ -25,9 +25,15 @@ public class PlayerMovement : MonoBehaviour
         {
             Doge.SetTrigger("Dodge");
             moveSpeed = 15f;
+            Invoke("ResetSpeed", 1);
         }
         
        
+    }
+
+    void ResetSpeed()
+    {
+        moveSpeed = 10f;
     }
 
     private void FixedUpdate()
