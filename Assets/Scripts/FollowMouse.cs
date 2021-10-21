@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class FollowMouse : MonoBehaviour
 {
-    private void Start()
-    {
-        Cursor.visible = false;
-    }
-
-    // Update is called once per frame
+    // this makes it so a object follows the mouse
     void Update()
     {
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
