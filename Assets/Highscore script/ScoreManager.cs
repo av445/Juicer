@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
 
-    public static ScoreManager instance; // gör så att man kan nå det här scriptet från andra skript
+    public static ScoreManager instance; // gör så att man kan nå det här scriptet från andra skript - Thea
 
     public Text highScoreText; // Highscore texten 
     public Text scoreText; // poäng texten
@@ -23,6 +23,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        highscore = PlayerPrefs.GetInt("highscore", 0); // skriver ut spelarens sparade score i highscore - Thea
         scoreText.text = "score:" + score.ToString(); //Vid start ändras score texten till score: 0
         highScoreText.text = "HIGHSCORE:" + highscore.ToString();//Vid start ändras highscore texten till highscore: 0
     }
@@ -33,10 +34,12 @@ public class ScoreManager : MonoBehaviour
 
     }
 
-    public void Addpoint() // när den här metoden spelas så ökar poängen med 1 och ändrar poäng texten så att den visar samma poäng
+    public void Addpoint() // när den här metoden spelas så ökar poängen med 1 och ändrar poäng texten så att den visar samma poäng - Thea
     {
         score += 1;
         scoreText.text = "score:" + score.ToString();
+        if(highscore < score) // om higscore är mindre än spelarens score sparas scoren och highscore ändras till spelarens score
+        PlayerPrefs.SetInt("highscore", score);
     }
 
    
