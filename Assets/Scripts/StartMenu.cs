@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class StartMenu : MonoBehaviour
 
     public Animator Controls;
     public Animator ControlsToMenu;
+
+    [SerializeField] private Slider slider;
+    
 
     //this loads the begining scene
     public void start()
@@ -38,5 +42,13 @@ public class StartMenu : MonoBehaviour
     public void MenuToControlls()
     {
         ControlsToMenu.SetTrigger("ControllsToMenu");
+    }
+
+    public void SlideSkins()
+    {
+        slider.onValueChanged.AddListener((v) =>
+        {
+            
+        });
     }
 }
