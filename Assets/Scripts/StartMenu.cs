@@ -11,8 +11,6 @@ public class StartMenu : MonoBehaviour
 
     public Animator Controls;
     public Animator ControlsToMenu;
-
-    [SerializeField] private Slider slider;
     
 
     //this loads the begining scene
@@ -42,13 +40,5 @@ public class StartMenu : MonoBehaviour
     public void MenuToControlls()
     {
         ControlsToMenu.SetTrigger("ControllsToMenu");
-    }
-
-    public void SlideSkins()
-    {
-        slider.onValueChanged.AddListener((v) =>
-        {
-            
-        });
     }
 }
