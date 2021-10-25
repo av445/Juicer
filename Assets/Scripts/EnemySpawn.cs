@@ -16,6 +16,6 @@ public class EnemySpawn : MonoBehaviour
     void SpawnEnemy()
     {
         for (int i = 0; i < wave; i++);
-        Instantiate(Enemies[(int)Random.Range(0,Enemies.Length)],new Vector3(Random.Range(-8.5f,8.5f),7,0),Quaternion.identity);
+        Instantiate(Enemies[(int)Random.Range(0,Enemies.Length)],new Vector3(Random.Range(-8.5f,8.5f),10,0),Quaternion.identity);
     }
 }
