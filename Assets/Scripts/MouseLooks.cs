@@ -3,38 +3,35 @@ using System.Collections;
 using UnityEngine.UI;
 public class MouseLooks: MonoBehaviour
 {
+    /* this is where you would put your mouse models hover it was bad and scraped
     public Texture2D cursorTexture;
     public Texture2D cursorTexture1;
     public Texture2D cursorTexture2;
     public Texture2D cursorTexture3;
-
-    public CursorMode cursorMode = CursorMode.Auto;
-    public Vector2 hotSpot = Vector2.zero;
-
+    */
+    // this makes it so I can activate and de activate the trail
     public GameObject trail;
 
-    [SerializeField] private Slider slider;
+    //[SerializeField] private Slider slider; was gona be used but scrapt
 
-    //this makes it so when you press the cool mouse button the curser gets replaised with a JPG'
-    public void coolmouse()
-    {
-        trail.SetActive(true);
-        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
-    }
-    //this reverts it to its normal state
+    //this adds the trail
     public void SetTrail()
     {
         trail.SetActive(true);
     }
+
+    //this removes the trail
     public void RemoveTrail()
     {
         trail.SetActive(false);
     }
- 
+    // this removes the cursior and the trail
     public void Start()
     {
         trail.SetActive(false);
+        Cursor.visible = false;
     }
+    /* this would be used to customize the mouse to look diferently hoever it waas bad
     public void SlideSkins()
     {
         if (slider.value.Equals(1))
@@ -57,5 +54,7 @@ public class MouseLooks: MonoBehaviour
         {
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
         }
+        
     }
+    */
 }

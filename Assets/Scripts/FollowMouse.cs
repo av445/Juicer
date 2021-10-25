@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FollowMouse : MonoBehaviour
 {
-    // this makes it so a object follows the mouse
+    // this makes the sprite follows the mouse
     void Update()
     {
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
