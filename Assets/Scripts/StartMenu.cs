@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
+    //this shoses the curser that the next scene will use
+    public GameObject curserTransfer;
+
+    //these are just name to trigger animations 
     public Animator options;
     public Animator MenuToOption;
 
@@ -17,6 +21,7 @@ public class StartMenu : MonoBehaviour
     public void start()
     {
         SceneManager.LoadScene(1);
+        CurserController.Curser = curserTransfer;
     }
     //this quits the game
     public void Quite()
