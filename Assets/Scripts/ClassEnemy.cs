@@ -5,6 +5,7 @@ using UnityEngine;
 public class ClassEnemy : MonoBehaviour
 {
     Rigidbody2D rb;
+    public GameObject EnemyBullet;
 
     public float xSpeed;
     public float YSpeed;
@@ -19,7 +20,11 @@ public class ClassEnemy : MonoBehaviour
     }
     void Start()
     {
-        
+        if (!canshoot) return;
+        firerate = firerate + (Random.Range(firerate / -2, firerate / 2));
+        {
+            InvokeRepeating("shoot", firerate, firerate);
+        }
     }
 
    
@@ -48,4 +53,9 @@ public class ClassEnemy : MonoBehaviour
             Die();
         }
     }
-}
+    void shoot()
+    {
+        GameObject temp = (GameObject)Instantiate(EnemyBullet, transform.position, Quaternion.identity);
+        temp.GetComponent<EnemyBullet>().ChangeDirection();
+    }
+} 
