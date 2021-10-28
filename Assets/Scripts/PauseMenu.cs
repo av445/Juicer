@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public bool Paused;
-
+    bool options;
     public void Start()
     {
-        Paused = false;
+
     }
 
     // Update is called once per frame
@@ -16,8 +15,14 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale = 0;
+            if (options == true)
+            {
+                Time.timeScale = 0;
+            }
+            else
+            {
+                Time.timeScale = 1;
+            }
         }
     }
-
 }
