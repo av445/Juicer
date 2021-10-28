@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 97a4be14dbb5dd044ae850085651f8c6
+guid: c30d4069e052bbd44933151426fd71e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4793086670935515
-    second: Enemy1LaserUpscaled_0
+      213: 6659007208178836868
+    second: Enemy1WithLaserUpscaled_0
   - first:
-      213: -9134105029295485974
-    second: Enemy1LaserUpscaled_1
+      213: 7647645211069828854
+    second: Enemy1WithLaserUpscaled_1
   - first:
-      213: 3208679910304508812
-    second: Enemy1LaserUpscaled_2
+      213: 1899476168828320561
+    second: Enemy1WithLaserUpscaled_2
   - first:
-      213: 1994138202408561292
-    second: Enemy1LaserUpscaled_3
-  - first:
-      213: 5715779663621631563
-    second: Enemy1LaserUpscaled_4
-  - first:
-      213: -1243897288334463066
-    second: Enemy1LaserUpscaled_5
+      213: -2463554893978519825
+    second: Enemy1WithLaserUpscaled_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,13 +115,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy1LaserUpscaled_0
+      name: Enemy1WithLaserUpscaled_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 2820
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e34066cb896c50800000000000000
+      internalID: 6659007208178836868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1WithLaserUpscaled_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 2820
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec80eecc4e12a60800000000000000
+      internalID: 7647645211069828854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1WithLaserUpscaled_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 2820
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf45ef28b4c5a10800000000000000
+      internalID: 1899476168828320561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1WithLaserUpscaled_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 2400
+        width: 2820
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,113 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ae99b86b8feeff0800000000000000
-      internalID: -4793086670935515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aebcbb3ded32d3180800000000000000
-      internalID: -9134105029295485974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_2
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8be1abc065878c20800000000000000
-      internalID: 3208679910304508812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_3
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a2993312a9cab10800000000000000
-      internalID: 1994138202408561292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4ea1901257825f40800000000000000
-      internalID: 5715779663621631563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_5
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6afa0c7b10accbee0800000000000000
-      internalID: -1243897288334463066
+      spriteID: fe63cbb50e1bfcdd0800000000000000
+      internalID: -2463554893978519825
       vertices: []
       indices: 
       edges: []
