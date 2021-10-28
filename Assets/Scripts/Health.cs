@@ -10,9 +10,9 @@ public class Health : MonoBehaviour
     public int health;
     public int nrHarts;
 
-    public Image[] harts;
-    public Sprite fullHart;
-    public Sprite emptyHart;
+    public GameObject[] hearts;
+    public GameObject fullHart;
+    public GameObject emptyHart;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +23,29 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < harts.Length; i++)
+        if(health > nrHarts)
         {
-            if( i < nrHarts)
+            health = nrHarts;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+
+            if (i < health)
             {
-                harts[i].enabled = true;
+                hearts[i] = fullHart;
             }
             else
             {
-                harts[i].enabled = false;
+                hearts[i] = emptyHart;
+            }
+            if( i < nrHarts)
+            {
+                hearts[i].SetActive(true);
+            }
+            else
+            {
+                hearts[i].SetActive(false);
             }
         }
 
