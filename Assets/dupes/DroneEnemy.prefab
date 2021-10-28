@@ -143,7 +143,7 @@ MonoBehaviour:
   YSpeed: 4
   canshoot: 0
   firerate: 0
-  health: 6
+  health: 4
 --- !u!60 &7043755440807608468
 PolygonCollider2D:
   m_ObjectHideFlags: 0
