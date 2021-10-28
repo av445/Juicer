@@ -22,9 +22,8 @@ public class ClassEnemy : MonoBehaviour
     {
         if (!canshoot) return;
         firerate = firerate + (Random.Range(firerate / -2, firerate / 2));
-        {
-            InvokeRepeating("shoot", firerate, firerate);
-        }
+        InvokeRepeating("shoot", firerate, firerate);
+        
     }
 
    
