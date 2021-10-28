@@ -42,6 +42,10 @@ public class ClassEnemy : MonoBehaviour
         ScoreManager.instance.Addpoint();
         Destroy(gameObject);
     }
+    void destory()
+    {
+        Destroy(gameObject);
+    }
     public void damage()
     {
         health--;
@@ -54,7 +58,7 @@ public class ClassEnemy : MonoBehaviour
     {
         if (collision.tag == "Destroy")
         {
-            Die();
+            destory();
         }
     }
     void shoot()

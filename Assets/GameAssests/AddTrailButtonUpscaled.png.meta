@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 97a4be14dbb5dd044ae850085651f8c6
+guid: 3c2233c53a951a24783b3a9b429884ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4793086670935515
-    second: Enemy1LaserUpscaled_0
+      213: 680699794462100751
+    second: AddTrailButtonUpscaled_0
   - first:
-      213: -9134105029295485974
-    second: Enemy1LaserUpscaled_1
+      213: -1987950087741457036
+    second: AddTrailButtonUpscaled_1
   - first:
-      213: 3208679910304508812
-    second: Enemy1LaserUpscaled_2
-  - first:
-      213: 1994138202408561292
-    second: Enemy1LaserUpscaled_3
-  - first:
-      213: 5715779663621631563
-    second: Enemy1LaserUpscaled_4
-  - first:
-      213: -1243897288334463066
-    second: Enemy1LaserUpscaled_5
+      213: -6861625441602451818
+    second: AddTrailButtonUpscaled_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,29 +96,59 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy1LaserUpscaled_0
+      name: AddTrailButtonUpscaled_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1090
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d48974bd4527900800000000000000
+      internalID: 680699794462100751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AddTrailButtonUpscaled_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 1090
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47db6f48de16964e0800000000000000
+      internalID: -1987950087741457036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AddTrailButtonUpscaled_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 2400
+        width: 1090
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,113 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ae99b86b8feeff0800000000000000
-      internalID: -4793086670935515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_1
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aebcbb3ded32d3180800000000000000
-      internalID: -9134105029295485974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_2
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8be1abc065878c20800000000000000
-      internalID: 3208679910304508812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_3
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a2993312a9cab10800000000000000
-      internalID: 1994138202408561292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4ea1901257825f40800000000000000
-      internalID: 5715779663621631563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1LaserUpscaled_5
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 120
-        height: 2400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6afa0c7b10accbee0800000000000000
-      internalID: -1243897288334463066
+      spriteID: 696c08be30c96c0a0800000000000000
+      internalID: -6861625441602451818
       vertices: []
       indices: 
       edges: []

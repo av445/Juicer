@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: fe7b13ebd2ed6a0479781358cf6f8177
+guid: f05f5a6cf5470134cac1df459c46cdd8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8084900408810087907
-    second: Enemy1Upscaled_0
+      213: 6808211462697521967
+    second: Remove Trail Button_0
   - first:
-      213: -9105423424748145772
-    second: Enemy1Upscaled_1
+      213: -1172522475614941342
+    second: Remove Trail Button_1
   - first:
-      213: -7291834527144811859
-    second: Enemy1Upscaled_2
-  - first:
-      213: -6037425719587001669
-    second: Enemy1Upscaled_3
+      213: 1738218360307149432
+    second: Remove Trail Button_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,28 +96,37 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy1Upscaled_0
+      name: Remove Trail Button_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 1390
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2314ddf040ab7e50800000000000000
+      internalID: 6808211462697521967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Remove Trail Button_1
       rect:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 320
+        width: 1390
         height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -129,40 +135,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e5298f0616533070800000000000000
-      internalID: 8084900408810087907
+      spriteID: 26f4fcd450d5abfe0800000000000000
+      internalID: -1172522475614941342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy1Upscaled_1
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 493bd5643a903a180800000000000000
-      internalID: -9105423424748145772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1Upscaled_2
+      name: Remove Trail Button_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
+        width: 1390
         height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,29 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2ea90a1233eca90800000000000000
-      internalID: -7291834527144811859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1Upscaled_3
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbaa532bb41c63ca0800000000000000
-      internalID: -6037425719587001669
+      spriteID: 87a6b24a3646f1810800000000000000
+      internalID: 1738218360307149432
       vertices: []
       indices: 
       edges: []

@@ -12,8 +12,14 @@ public class StartMenu : MonoBehaviour
 
     public Animator Controls;
     public Animator ControlsToMenu;
-    
-
+    public void Start()
+    {
+        int cameraHeight = 8;
+        float desiredAspect = 16f / 9f;
+        float aspect = Camera.main.aspect;
+        float ratio = desiredAspect / aspect;
+        Camera.main.orthographicSize = cameraHeight * ratio;
+    }
     //this loads the begining scene
     public void start()
     {
