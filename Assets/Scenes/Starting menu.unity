@@ -370,6 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699735716}
   - component: {fileID: 699735715}
+  - component: {fileID: 699735717}
   m_Layer: 0
   m_Name: A-SteroidsUpscaled
   m_TagString: Untagged
@@ -442,6 +443,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &699735717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699735714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b871c3a359744742a3dcb9eec5c044f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &723541754
 GameObject:
   m_ObjectHideFlags: 0
@@ -6512,7 +6532,6 @@ GameObject:
   - component: {fileID: 1688782132}
   - component: {fileID: 1688782131}
   - component: {fileID: 1688782130}
-  - component: {fileID: 1688782133}
   m_Layer: 5
   m_Name: 'Start '
   m_TagString: Untagged
@@ -6638,25 +6657,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688782128}
   m_CullTransparentMesh: 1
---- !u!95 &1688782133
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688782128}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6dfc114b63116684fa6decf027599685, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1694927165
 GameObject:
   m_ObjectHideFlags: 0
