@@ -18,6 +18,7 @@ public class MouseLooks: MonoBehaviour
     public void SetTrail()
     {
         trail.SetActive(true);
+        GameObject.DontDestroyOnLoad(trail.gameObject);
     }
 
     //this removes the trail
