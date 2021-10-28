@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5639974340270074448}
   - component: {fileID: 3546936802020353996}
+  - component: {fileID: 1553773979218316644}
   - component: {fileID: 8843391404346340237}
+  - component: {fileID: 2828308295350547524}
   m_Layer: 0
   m_Name: Enemy2ProjectileUpscaled_0
   m_TagString: Untagged
@@ -84,6 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1553773979218316644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792401430614459083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f7fbc45d522fc4e8404beb7e460fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hiteffect: {fileID: 7767450070422968584, guid: 00184e19cad76ad408e260d93f9c39ec,
+    type: 3}
 --- !u!95 &8843391404346340237
 Animator:
   serializedVersion: 3
@@ -103,3 +119,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &2828308295350547524
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792401430614459083}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
