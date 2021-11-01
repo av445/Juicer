@@ -52,10 +52,13 @@ public class Health : MonoBehaviour
 
     }
 
-   // public loseHealth()
-   // {
-       
-    //}
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            health -= 1; 
+        }
+    }
 
 }
 

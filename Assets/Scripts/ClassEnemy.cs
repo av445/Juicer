@@ -14,6 +14,10 @@ public class ClassEnemy : MonoBehaviour
     public float firerate;
     public float health;
 
+    public Transform firepoint;
+
+   public float bulletForce = 20f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +34,7 @@ public class ClassEnemy : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(xSpeed, YSpeed * -1);
+        
     }
 
     void Die()
@@ -59,6 +64,14 @@ public class ClassEnemy : MonoBehaviour
     void shoot()
     {
         GameObject temp = (GameObject)Instantiate(EnemyBullet, transform.position, Quaternion.identity);
-        temp.GetComponent<EnemyBullet>().ChangeDirection();
+        //temp.GetComponent<EnemyBullet>().ChangeDirection();
+            GameObject Bullet = Instantiate(EnemyBullet, firepoint.position, firepoint.rotation);
+            Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
+        
+      
+       
+        Debug.Log("Shooting");
+  
     }
 } 

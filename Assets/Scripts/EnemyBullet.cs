@@ -12,28 +12,15 @@ public class EnemyBullet : MonoBehaviour
         GameObject effect = Instantiate(hiteffect, transform.position, Quaternion.identity);
         Destroy(effect, 0.5f);
         Destroy(gameObject);
-        if (collision.transform.tag == "Enemy")
+        if (collision.transform.tag == "Player")
         {
             collision.gameObject.GetComponent<ClassEnemy>().damage();
         }
 
 
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    internal void ChangeDirection()
-    {
-        throw new NotImplementedException();
-    }
+  //  internal void ChangeDirection()
+   // {
+   //     throw new NotImplementedException();
+  //  }
 }
