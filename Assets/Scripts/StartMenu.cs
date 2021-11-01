@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
+    //this is so I can activate the secret
+    public GameObject secret;
+
     //these are just name to trigger animations 
     public Animator options;
     public Animator MenuToOption;
@@ -31,8 +34,8 @@ public class StartMenu : MonoBehaviour
         Camera.main.orthographicSize = cameraHeight * ratio;
 
         Assdestyers.SetActive(false);
+        secret.SetActive(false);
     }
-
     public void Ass()
     {
         assCode = inputField.GetComponent<Text>().text;
@@ -40,6 +43,7 @@ public class StartMenu : MonoBehaviour
         {
             Asteroids.SetActive(false);
             Assdestyers.SetActive(true);
+            secret.SetActive(true);
         }
     }
     //this loads the begining scene
@@ -69,5 +73,10 @@ public class StartMenu : MonoBehaviour
     public void MenuToControlls()
     {
         ControlsToMenu.SetTrigger("ControllsToMenu");
+    }
+    //shhh secret room
+    public void Secret()
+    {
+        SceneManager.LoadScene("I'mNotHere");
     }
 }
