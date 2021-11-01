@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeepCurser : MonoBehaviour
+public class KeepCurser2 : MonoBehaviour
 {
     //This code makes it so that the mouse model is not destried when you go to another scene
-    public static KeepCurser Instance;
+    public static KeepCurser2 Instance;
 
     private void Start()
     {

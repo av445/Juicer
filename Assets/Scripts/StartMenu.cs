@@ -12,6 +12,16 @@ public class StartMenu : MonoBehaviour
 
     public Animator Controls;
     public Animator ControlsToMenu;
+
+    //this makes it so I can replaise the menu text
+    public GameObject Asteroids;
+    public GameObject Assdestyers;
+
+    //This is to store the input fields stuff
+    public string assCode;
+    public GameObject inputField;
+
+    // this sets the camera to a desired size so that the buttons don't fuck up
     public void Start()
     {
         int cameraHeight = 8;
@@ -19,6 +29,18 @@ public class StartMenu : MonoBehaviour
         float aspect = Camera.main.aspect;
         float ratio = desiredAspect / aspect;
         Camera.main.orthographicSize = cameraHeight * ratio;
+
+        Assdestyers.SetActive(false);
+    }
+
+    public void Ass()
+    {
+        assCode = inputField.GetComponent<Text>().text;
+        if(assCode == "ass")
+        {
+            Asteroids.SetActive(false);
+            Assdestyers.SetActive(true);
+        }
     }
     //this loads the begining scene
     public void start()

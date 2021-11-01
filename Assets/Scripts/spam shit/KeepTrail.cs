@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KeepTrail : MonoBehaviour
 {
+    //this is keepcursor but for the trail
     public static KeepTrail Instance;
 
     private void Start()
