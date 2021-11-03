@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Secret : MonoBehaviour
 {
@@ -14,11 +15,20 @@ public class Secret : MonoBehaviour
 
     public GameObject TheEnd;
 
-    public float countDown = 40f;
+    public bool countDownTF;
+    public float countDown = 45f;
+    //this makes it so the back button takes you back to the main menu
+    public void back()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void Start()
     {
         TheEnd.SetActive(false);
         camera2.SetActive(false);
+
+        countDownTF = false;
     }
     public void Textsecret()
     {
@@ -26,12 +36,16 @@ public class Secret : MonoBehaviour
         camera1.SetActive(false);
         Shhh.SetTrigger("Shhh");
 
-        countDown -= Time.deltaTime;
+        countDownTF = true;
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
-        if (countDown == 0)
+        if(countDownTF == true)
+        {
+            countDown -= Time.deltaTime;
+        }
+        if (countDown <= 1)
         {
             TheEnd.SetActive(true);
         }

@@ -38,6 +38,7 @@ public class StartMenu : MonoBehaviour
     }
     public void Ass()
     {
+        //this makes it so if you put in ass in the text box the title screan changes and some secrets opens up... I didn't pick the name ok
         assCode = inputField.GetComponent<Text>().text;
         if(assCode == "ass")
         {
