@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    public GameObject DeatEffekt;
 
     public int health;
     public int nrHearts = 10;
@@ -49,7 +50,12 @@ public class Health : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
-
+        if (health == 0)
+        {
+            GameObject effect = Instantiate(DeatEffekt, transform.position, Quaternion.identity);
+            Destroy(effect, 0.5f);
+            Destroy(gameObject);
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
