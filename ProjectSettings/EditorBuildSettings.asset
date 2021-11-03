@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Hjalmars tes scene.unity
     guid: d613dcb1ef1f82144adc6641ecda41cb
   - enabled: 1
+    path: Assets/Scenes/assDestoyer.unity
+    guid: 0e231a6fc04458f48a2d384111569352
+  - enabled: 1
     path: Assets/Animations/Cursor/I'mNotHere.unity
     guid: a72c8e05cb5dbbe4085487517f0cc902
   m_configObjects: {}

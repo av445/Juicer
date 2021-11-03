@@ -50,7 +50,14 @@ public class StartMenu : MonoBehaviour
     //this loads the begining scene
     public void start()
     {
-        SceneManager.LoadScene(1);
+        if (assCode == "ass")
+        {
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            SceneManager.LoadScene(1);
+        }
     }
     //this quits the game
     public void Quite()
