@@ -8,17 +8,17 @@ public class Health : MonoBehaviour
 {
     public GameObject DeatEffekt;
 
-    public int health;
-    public int nrHearts = 10;
+    public int health; // hur mycket hjärtan man har
+    public int nrHearts = 10; // hur många hjärtan som finns - Thea och Noa
 
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
-
+    // bilderna av hjärtanen som visas och spritsens för hjärtanen - Thea och Noa
 
     private void Start()
     {
-        health = 10;
+        health = 10; //man startar spelet med 10 hjärtan - Thea och Noa
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         for (int i = 0; i < hearts.Length; i++)
         {
 
-            if (i < health)
+            if (i < health) // om i är mindre än hälsan så visas det antalet hjärtan som fyllda resten visas som tomma - Thea och Noa
             {
                 hearts[i].sprite = fullHeart;
             }
@@ -41,7 +41,7 @@ public class Health : MonoBehaviour
                 hearts[i].sprite = emptyHeart;
             }
 
-            if( i < nrHearts)
+            if( i < nrHearts) // bestämmer hur många hjärtan som finns -Thea och Noa
             {
                 hearts[i].enabled = true;
             }
@@ -58,7 +58,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision) // om man kolliderar med en fiende med enemy tagen så minskar ens liv -Noa och Thea
     {
         if (collision.transform.tag == "Enemy")
         {
