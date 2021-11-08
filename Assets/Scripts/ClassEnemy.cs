@@ -16,17 +16,17 @@ public class ClassEnemy : MonoBehaviour
 
     public Transform firepoint;
 
-   public float bulletForce = 20f;
+   public float bulletForce = -20f; //kraften på kullan
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); // skafar rifgidbody
     }
-    void Start()
+    void Start() // startar
     {
         if (!canshoot) return;
-        firerate = firerate + (Random.Range(firerate / -2, firerate / 2));
-        InvokeRepeating("shoot", firerate, firerate);
+        firerate = firerate + (Random.Range(firerate / -2, firerate / 2)); // hur snabbt den skjuter
+        InvokeRepeating("shoot", firerate, firerate); // repeterar
         
     }
 
@@ -37,33 +37,32 @@ public class ClassEnemy : MonoBehaviour
         
     }
 
-    void Die()
+    void Die() //när fienden dör
     {
-        ScoreManager.instance.Addpoint();
-        Destroy(gameObject);
+        ScoreManager.instance.Addpoint(); // läger till ett påäng till highscore
+        Destroy(gameObject); // förstör fienden
     }
-    void destory()
+    void destory() //förstör firenden
     {
-        Destroy(gameObject);
+        Destroy(gameObject); // förstör fienden
     }
-    public void damage()
+    public void damage() //när tar skada
     {
-        health--;
-        if(health==0)
+        health--; // liv
+        if(health==0) // när livet blir noll dö
         {
             Die();
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //om den rör vid en trigger
     {
-        if (collision.tag == "Destroy")
+        if (collision.tag == "Destroy") //startar destroy
         {
-            destory();
+            destory(); // startar destroy
         }
     }
     void shoot()
     {
-        GameObject temp = (GameObject)Instantiate(EnemyBullet, transform.position, Quaternion.identity);
         //temp.GetComponent<EnemyBullet>().ChangeDirection();
             GameObject Bullet = Instantiate(EnemyBullet, firepoint.position, firepoint.rotation);
             Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
@@ -75,3 +74,4 @@ public class ClassEnemy : MonoBehaviour
   
     }
 } 
+//Ludvig och Hjalmar

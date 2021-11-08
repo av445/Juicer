@@ -159,10 +159,10 @@ MonoBehaviour:
   xSpeed: 0
   YSpeed: 3
   canshoot: 1
-  firerate: 1
+  firerate: 3
   health: 0
   firepoint: {fileID: 995827633}
-  bulletForce: 20
+  bulletForce: -20
 --- !u!212 &949564006
 SpriteRenderer:
   m_ObjectHideFlags: 0
