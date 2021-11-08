@@ -6,7 +6,6 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     public GameObject hiteffect;
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject effect = Instantiate(hiteffect, transform.position, Quaternion.identity);
@@ -19,8 +18,11 @@ public class EnemyBullet : MonoBehaviour
 
 
     }
-  //  internal void ChangeDirection()
-   // {
-   //     throw new NotImplementedException();
-  //  }
+    private void Update()
+    {
+        //  internal void ChangeDirection()
+        // {
+        //     throw new NotImplementedException();
+        //   }
+    }
 }

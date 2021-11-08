@@ -63,7 +63,6 @@ public class ClassEnemy : MonoBehaviour
     }
     void shoot()
     {
-        GameObject temp = (GameObject)Instantiate(EnemyBullet, transform.position, Quaternion.identity);
         //temp.GetComponent<EnemyBullet>().ChangeDirection();
             GameObject Bullet = Instantiate(EnemyBullet, firepoint.position, firepoint.rotation);
             Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
