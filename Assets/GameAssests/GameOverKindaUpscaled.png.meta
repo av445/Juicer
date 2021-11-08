@@ -1,0 +1,2064 @@
+fileFormatVersion: 2
+guid: cf90ba3936b3be544b8a3fca6f328dda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 458205285841937262
+    second: GameOverKindaUpscaled_0
+  - first:
+      213: -2180850855888766028
+    second: GameOverKindaUpscaled_1
+  - first:
+      213: -8348962499598246395
+    second: GameOverKindaUpscaled_2
+  - first:
+      213: -3512137278259162664
+    second: GameOverKindaUpscaled_3
+  - first:
+      213: -8256000224915940105
+    second: GameOverKindaUpscaled_4
+  - first:
+      213: 2018132666520099518
+    second: GameOverKindaUpscaled_5
+  - first:
+      213: 3259832952629256383
+    second: GameOverKindaUpscaled_6
+  - first:
+      213: 5005917025931050979
+    second: GameOverKindaUpscaled_7
+  - first:
+      213: 6239411596866676223
+    second: GameOverKindaUpscaled_8
+  - first:
+      213: 6333949697464489465
+    second: GameOverKindaUpscaled_9
+  - first:
+      213: 9127787304060854685
+    second: GameOverKindaUpscaled_10
+  - first:
+      213: 6845527377363492207
+    second: GameOverKindaUpscaled_11
+  - first:
+      213: -9215077933401293795
+    second: GameOverKindaUpscaled_12
+  - first:
+      213: 5764377576951865012
+    second: GameOverKindaUpscaled_13
+  - first:
+      213: 42330235530672488
+    second: GameOverKindaUpscaled_14
+  - first:
+      213: 2531444429099421460
+    second: GameOverKindaUpscaled_15
+  - first:
+      213: -5333389080378825595
+    second: GameOverKindaUpscaled_16
+  - first:
+      213: -5653853437204352249
+    second: GameOverKindaUpscaled_17
+  - first:
+      213: 6796437415228236260
+    second: GameOverKindaUpscaled_18
+  - first:
+      213: 617742490166277756
+    second: GameOverKindaUpscaled_19
+  - first:
+      213: -2318960636135922727
+    second: GameOverKindaUpscaled_20
+  - first:
+      213: 223317876562795871
+    second: GameOverKindaUpscaled_21
+  - first:
+      213: -6867251229001118256
+    second: GameOverKindaUpscaled_22
+  - first:
+      213: 7940368595054158539
+    second: GameOverKindaUpscaled_23
+  - first:
+      213: -6615946416218493261
+    second: GameOverKindaUpscaled_24
+  - first:
+      213: -1617066320060053203
+    second: GameOverKindaUpscaled_25
+  - first:
+      213: 3420123429841864884
+    second: GameOverKindaUpscaled_26
+  - first:
+      213: -1856700701080214988
+    second: GameOverKindaUpscaled_27
+  - first:
+      213: 2761133382812246237
+    second: GameOverKindaUpscaled_28
+  - first:
+      213: -5819985858574294448
+    second: GameOverKindaUpscaled_29
+  - first:
+      213: -2799632231948537941
+    second: GameOverKindaUpscaled_30
+  - first:
+      213: -5253769705846521865
+    second: GameOverKindaUpscaled_31
+  - first:
+      213: 3990510765868949215
+    second: GameOverKindaUpscaled_32
+  - first:
+      213: 2746590924281594074
+    second: GameOverKindaUpscaled_33
+  - first:
+      213: 2601727099488130101
+    second: GameOverKindaUpscaled_34
+  - first:
+      213: 3119611922135736692
+    second: GameOverKindaUpscaled_35
+  - first:
+      213: -4747006258347842235
+    second: GameOverKindaUpscaled_36
+  - first:
+      213: -3312661715776832472
+    second: GameOverKindaUpscaled_37
+  - first:
+      213: -5783908202666182997
+    second: GameOverKindaUpscaled_38
+  - first:
+      213: -2480444008318738877
+    second: GameOverKindaUpscaled_39
+  - first:
+      213: 7552113874732584433
+    second: GameOverKindaUpscaled_40
+  - first:
+      213: -3790022436423710424
+    second: GameOverKindaUpscaled_41
+  - first:
+      213: -8338450261026887062
+    second: GameOverKindaUpscaled_42
+  - first:
+      213: -8358182141480007837
+    second: GameOverKindaUpscaled_43
+  - first:
+      213: 5253557552980702436
+    second: GameOverKindaUpscaled_44
+  - first:
+      213: -494017625977634052
+    second: GameOverKindaUpscaled_45
+  - first:
+      213: 3252580757531683828
+    second: GameOverKindaUpscaled_46
+  - first:
+      213: 52754315695015827
+    second: GameOverKindaUpscaled_47
+  - first:
+      213: 1747369986051718404
+    second: GameOverKindaUpscaled_48
+  - first:
+      213: -4658242769275269516
+    second: GameOverKindaUpscaled_49
+  - first:
+      213: 5801922369364841870
+    second: GameOverKindaUpscaled_50
+  - first:
+      213: -2401479716270445247
+    second: GameOverKindaUpscaled_51
+  - first:
+      213: 8083231743779000884
+    second: GameOverKindaUpscaled_52
+  - first:
+      213: -308749566830780213
+    second: GameOverKindaUpscaled_53
+  - first:
+      213: -7124737519844520277
+    second: GameOverKindaUpscaled_54
+  - first:
+      213: 6388060009086541585
+    second: GameOverKindaUpscaled_55
+  - first:
+      213: -8682915308607898744
+    second: GameOverKindaUpscaled_56
+  - first:
+      213: -5293539797915912413
+    second: GameOverKindaUpscaled_57
+  - first:
+      213: 7119068210168946742
+    second: GameOverKindaUpscaled_58
+  - first:
+      213: -3512177691986105822
+    second: GameOverKindaUpscaled_59
+  - first:
+      213: 410043785515697642
+    second: GameOverKindaUpscaled_60
+  - first:
+      213: 4464554800113542978
+    second: GameOverKindaUpscaled_61
+  - first:
+      213: -6065414797948288577
+    second: GameOverKindaUpscaled_62
+  - first:
+      213: -3323484543916096668
+    second: GameOverKindaUpscaled_63
+  - first:
+      213: 2769465600375440660
+    second: GameOverKindaUpscaled_64
+  - first:
+      213: 6791769714031972411
+    second: GameOverKindaUpscaled_65
+  - first:
+      213: -2403817897445560791
+    second: GameOverKindaUpscaled_66
+  - first:
+      213: 4655804037707013539
+    second: GameOverKindaUpscaled_67
+  - first:
+      213: 2210132911318556603
+    second: GameOverKindaUpscaled_68
+  - first:
+      213: -7847011854733680085
+    second: GameOverKindaUpscaled_69
+  - first:
+      213: 1133496985160957279
+    second: GameOverKindaUpscaled_70
+  - first:
+      213: -184889143870467709
+    second: GameOverKindaUpscaled_71
+  - first:
+      213: -1555845829533987360
+    second: GameOverKindaUpscaled_72
+  - first:
+      213: 5537008238687858406
+    second: GameOverKindaUpscaled_73
+  - first:
+      213: 1092299112678372081
+    second: GameOverKindaUpscaled_74
+  - first:
+      213: 6889405930428737159
+    second: GameOverKindaUpscaled_75
+  - first:
+      213: 6746979142606821794
+    second: GameOverKindaUpscaled_76
+  - first:
+      213: -5971221779572526285
+    second: GameOverKindaUpscaled_77
+  - first:
+      213: 455014007976077638
+    second: GameOverKindaUpscaled_78
+  - first:
+      213: 5142018587643050131
+    second: GameOverKindaUpscaled_79
+  - first:
+      213: -1648234758139707375
+    second: GameOverKindaUpscaled_80
+  - first:
+      213: -1329149388892636463
+    second: GameOverKindaUpscaled_81
+  - first:
+      213: 2850541592988562443
+    second: GameOverKindaUpscaled_82
+  - first:
+      213: 1014638365532527534
+    second: GameOverKindaUpscaled_83
+  - first:
+      213: 669340919573406183
+    second: GameOverKindaUpscaled_84
+  - first:
+      213: -1271756840100555680
+    second: GameOverKindaUpscaled_85
+  - first:
+      213: 7999121532888868458
+    second: GameOverKindaUpscaled_86
+  - first:
+      213: -1267132321316626982
+    second: GameOverKindaUpscaled_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63a0d0a74fdb5600800000000000000
+      internalID: 458205285841937262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbb4a283bf0cb1e0800000000000000
+      internalID: -2180850855888766028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e936067d6822c80800000000000000
+      internalID: -8348962499598246395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d194f6e0c1624fc0800000000000000
+      internalID: -3512137278259162664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc1750a98bcc6d80800000000000000
+      internalID: -8256000224915940105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebada89b7f8d10c10800000000000000
+      internalID: 2018132666520099518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb064909cc04d3d20800000000000000
+      internalID: 3259832952629256383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4799
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef33b93307987540800000000000000
+      internalID: 5005917025931050979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5e0be1ac7d69650800000000000000
+      internalID: 6239411596866676223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5509ee0b5b6e750800000000000000
+      internalID: 6333949697464489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_10
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d912ed3213a6cae70800000000000000
+      internalID: 9127787304060854685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d56fb61e2300f50800000000000000
+      internalID: 6845527377363492207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_12
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c331271777d1080800000000000000
+      internalID: -9215077933401293795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_13
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be51718dde2fff40800000000000000
+      internalID: 5764377576951865012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_14
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869701cff13669000800000000000000
+      internalID: 42330235530672488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_15
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4318
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fcc1dcb4f712320800000000000000
+      internalID: 2531444429099421460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584a21f83eefbf5b0800000000000000
+      internalID: -5333389080378825595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7033057114a7981b0800000000000000
+      internalID: -5653853437204352249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e16ad0f1dbc15e50800000000000000
+      internalID: 6796437415228236260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_19
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76b6099589a29800800000000000000
+      internalID: 617742490166277756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_20
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3210b769561dfd0800000000000000
+      internalID: -2318960636135922727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_21
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d1580fc62691300800000000000000
+      internalID: 223317876562795871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_22
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd0608346f92b0a0800000000000000
+      internalID: -6867251229001118256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_23
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3837
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2eed5da2bd13e60800000000000000
+      internalID: 7940368595054158539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be274889cf6f24a0800000000000000
+      internalID: -6615946416218493261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29829edfb60f89e0800000000000000
+      internalID: -1617066320060053203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b807bb8328b67f20800000000000000
+      internalID: 3420123429841864884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43225e1bc8cab36e0800000000000000
+      internalID: -1856700701080214988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_28
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd02ffbbe24815620800000000000000
+      internalID: 2761133382812246237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_29
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e1ed72b14b3fa0800000000000000
+      internalID: -5819985858574294448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_30
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf29f07155b529d0800000000000000
+      internalID: -2799632231948537941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_31
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3356
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff3f47c94cd617b0800000000000000
+      internalID: -5253769705846521865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde9dff1664216730800000000000000
+      internalID: 3990510765868949215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0cd11c4e9dd1620800000000000000
+      internalID: 2746590924281594074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_34
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5345f7f23013b1420800000000000000
+      internalID: 2601727099488130101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_35
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47169f7c3861b4b20800000000000000
+      internalID: 3119611922135736692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_36
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545ee9075fe3f1eb0800000000000000
+      internalID: -4747006258347842235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_37
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf51288bf0702d0800000000000000
+      internalID: -3312661715776832472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_38
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba63d96522e6bbfa0800000000000000
+      internalID: -5783908202666182997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_39
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2875
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e5aeef051b39dd0800000000000000
+      internalID: -2480444008318738877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0cb66e8f7ec860800000000000000
+      internalID: 7552113874732584433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829443aaca2276bc0800000000000000
+      internalID: -3790022436423710424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_42
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aaa36aaafd74c80800000000000000
+      internalID: -8338450261026887062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_43
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367021930a5c10c80800000000000000
+      internalID: -8358182141480007837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_44
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e43c7882c268e840800000000000000
+      internalID: 5253557552980702436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_45
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf242da2695e429f0800000000000000
+      internalID: -494017625977634052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_46
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb62ff47fc732d20800000000000000
+      internalID: 3252580757531683828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_47
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2394
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397ce5745cb6bb000800000000000000
+      internalID: 52754315695015827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dbacd8eb7ef3810800000000000000
+      internalID: 1747369986051718404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ec0dbb1e89a5fb0800000000000000
+      internalID: -4658242769275269516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e855260b7a1948050800000000000000
+      internalID: 5801922369364841870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de460fbea3caed0800000000000000
+      internalID: -2401479716270445247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_52
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432db15b1786d2070800000000000000
+      internalID: 8083231743779000884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_53
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ee70a7e917bbf0800000000000000
+      internalID: -308749566830780213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_54
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae05c369f8df1d90800000000000000
+      internalID: -7124737519844520277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_55
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1913
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f5b7d9bb2f6a850800000000000000
+      internalID: 6388060009086541585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bff97e786108780800000000000000
+      internalID: -8682915308607898744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32734d4a9919986b0800000000000000
+      internalID: -5293539797915912413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_58
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63065e691d20cc260800000000000000
+      internalID: 7119068210168946742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_59
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aed195ffc324fc0800000000000000
+      internalID: -3512177691986105822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_60
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5050286a4c0b500800000000000000
+      internalID: 410043785515697642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_61
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247680dbfe845fd30800000000000000
+      internalID: 4464554800113542978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_62
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb105e0906153dba0800000000000000
+      internalID: -6065414797948288577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_63
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1432
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46341677a6c90e1d0800000000000000
+      internalID: -3323484543916096668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415ca005a4e1f6620800000000000000
+      internalID: 2769465600375440660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30d1211296314e50800000000000000
+      internalID: 6791769714031972411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_66
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ee706bb5ce3aed0800000000000000
+      internalID: -2403817897445560791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_67
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad1b53da1dbc9040800000000000000
+      internalID: 4655804037707013539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_68
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfda8d4c28fbae10800000000000000
+      internalID: 2210132911318556603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_69
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22e15a1b40d91390800000000000000
+      internalID: -7847011854733680085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_70
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dbe72a08dfabf00800000000000000
+      internalID: 1133496985160957279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_71
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 951
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38156c0ad442f6df0800000000000000
+      internalID: -184889143870467709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed8a551676886ae0800000000000000
+      internalID: -1555845829533987360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eea66128a767dc40800000000000000
+      internalID: 5537008238687858406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_74
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f23ba77140a82f00800000000000000
+      internalID: 1092299112678372081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_75
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786acac21361c9f50800000000000000
+      internalID: 6889405930428737159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_76
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a99c0e78c512ad50800000000000000
+      internalID: 6746979142606821794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_77
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333f089ad65f12da0800000000000000
+      internalID: -5971221779572526285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_78
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649ad3954d8805600800000000000000
+      internalID: 455014007976077638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameOverKindaUpscaled_79
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 470
+        width: 576
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3987be079ae1c5740800000000000000
+      internalID: 5142018587643050131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

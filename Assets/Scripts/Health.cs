@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Health : MonoBehaviour
@@ -55,6 +56,7 @@ public class Health : MonoBehaviour
             GameObject effect = Instantiate(DeatEffekt, transform.position, Quaternion.identity);
             Destroy(effect, 0.5f);
             Destroy(gameObject);
+            SceneManager.LoadScene(4);
         }
     }
 
