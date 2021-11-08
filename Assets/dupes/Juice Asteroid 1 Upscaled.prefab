@@ -97,11 +97,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72f220f94fb822c4c90899f39f415271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyBullet: {fileID: 0}
   xSpeed: 0
   YSpeed: 4
   canshoot: 0
   firerate: 0
   health: 2
+  firepoint: {fileID: 0}
+  bulletForce: 20
 --- !u!50 &2845724915090968636
 Rigidbody2D:
   serializedVersion: 4
@@ -122,7 +125,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!60 &7363535236834459888
 PolygonCollider2D:
   m_ObjectHideFlags: 0

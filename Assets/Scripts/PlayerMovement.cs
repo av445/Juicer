@@ -50,7 +50,11 @@ public class PlayerMovement : MonoBehaviour
         {
             CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
         }
-       
+        if (collision.transform.tag == "Enemy bullet")
+        {
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
+        }
+
     }
     //:-Hjalmar Heike//
 }

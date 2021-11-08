@@ -549,7 +549,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!95 &5837195558653333817
 Animator:
   serializedVersion: 3
@@ -587,3 +587,5 @@ MonoBehaviour:
   canshoot: 0
   firerate: 0
   health: 40
+  firepoint: {fileID: 0}
+  bulletForce: 20

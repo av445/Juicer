@@ -16,6 +16,7 @@ public class Shoting : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             shoot();
+            audioPlayer.PlaySound("enemyshoot");
         }
     }
     void shoot()

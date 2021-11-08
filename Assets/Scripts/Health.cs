@@ -57,15 +57,18 @@ public class Health : MonoBehaviour
             Destroy(effect, 0.5f);
             Destroy(gameObject);
             SceneManager.LoadScene(4);
+
         }
     }
-
+    
     public void OnCollisionEnter2D(Collision2D collision) // om man kolliderar med en fiende med enemy tagen så minskar ens liv -Noa och Thea
     {
-        if (collision.transform.tag == "Enemy")
+        if (collision.transform.tag == "Enemy" || collision.transform.tag == "Enemy bullet")
         {
-            health -= 1; 
+            health -= 1;
+            audioPlayer.PlaySound("playerhurt");
         }
+        
     }
 
 }
