@@ -38,6 +38,7 @@ public class Secret : MonoBehaviour
 
         countDownTF = true;
     }
+    
 
     public void Update()
     {
@@ -48,6 +49,10 @@ public class Secret : MonoBehaviour
         if (countDown <= 1)
         {
             TheEnd.SetActive(true);
+        }
+        if (countDown <= -5)
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }

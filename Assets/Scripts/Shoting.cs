@@ -8,6 +8,8 @@ public class Shoting : MonoBehaviour
     public Transform firepoint1;
     public GameObject BulletPrefab;
 
+    public AudioClip shoots;
+
     public float bulletForce = 20f;
     void Update()
     {
