@@ -56,7 +56,7 @@ public class Health : MonoBehaviour
             GameObject effect = Instantiate(DeatEffekt, transform.position, Quaternion.identity);
             Destroy(effect, 0.5f);
             Destroy(gameObject);
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(0);
 
         }
     }
