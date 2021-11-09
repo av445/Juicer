@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using EZCameraShake;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
 
-
+    
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");// Gör så att spelaren kan röra sig Horizontalt
@@ -42,6 +43,18 @@ public class PlayerMovement : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angel = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angel;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
+        }
+        if (collision.transform.tag == "Enemy bullet")
+        {
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
+        }
+
     }
     //:-Hjalmar Heike//
 }

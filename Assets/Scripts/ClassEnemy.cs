@@ -14,6 +14,10 @@ public class ClassEnemy : MonoBehaviour
     public float firerate;
     public float health;
 
+    public Transform firepoint;
+
+   public float bulletForce = 20f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,20 +26,25 @@ public class ClassEnemy : MonoBehaviour
     {
         if (!canshoot) return;
         firerate = firerate + (Random.Range(firerate / -2, firerate / 2));
-        {
-            InvokeRepeating("shoot", firerate, firerate);
-        }
+        InvokeRepeating("shoot", firerate, firerate);
+        
     }
 
    
     void Update()
     {
         rb.velocity = new Vector2(xSpeed, YSpeed * -1);
+        
     }
 
     void Die()
     {
         ScoreManager.instance.Addpoint();
+        Destroy(gameObject);
+
+    }
+    void destory()
+    {
         Destroy(gameObject);
     }
     public void damage()
@@ -50,12 +59,20 @@ public class ClassEnemy : MonoBehaviour
     {
         if (collision.tag == "Destroy")
         {
-            Die();
+            destory();
         }
     }
     void shoot()
     {
-        GameObject temp = (GameObject)Instantiate(EnemyBullet, transform.position, Quaternion.identity);
-        temp.GetComponent<EnemyBullet>().ChangeDirection();
+        audioPlayer.PlaySound("enemyshoot");
+        //temp.GetComponent<EnemyBullet>().ChangeDirection();
+        GameObject Bullet = Instantiate(EnemyBullet, firepoint.position, firepoint.rotation);
+            Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(firepoint.up * bulletForce, ForceMode2D.Impulse);
+        
+      
+       
+        Debug.Log("Shooting");
+  
     }
 } 

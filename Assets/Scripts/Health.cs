@@ -2,39 +2,75 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Health : MonoBehaviour
 {
+    public GameObject DeatEffekt;
 
-    public int health;
-    public int nrHarts;
+    public int health; // hur mycket hjärtan man har
+    public int nrHearts = 10; // hur många hjärtan som finns - Thea och Noa
 
-    public Image[] harts;
-    public Sprite fullHart;
-    public Sprite emptyHart;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
+    // bilderna av hjärtanen som visas och spritsens för hjärtanen - Thea och Noa
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        health = 10; //man startar spelet med 10 hjärtan - Thea och Noa
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < harts.Length; i++)
+        if(health > nrHearts)
         {
-            if( i < nrHarts)
+            health = nrHearts;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+
+            if (i < health) // om i är mindre än hälsan så visas det antalet hjärtan som fyllda resten visas som tomma - Thea och Noa
             {
-                harts[i].enabled = true;
+                hearts[i].sprite = fullHeart;
             }
             else
             {
-                harts[i].enabled = false;
+                hearts[i].sprite = emptyHeart;
+            }
+
+            if( i < nrHearts) // bestämmer hur många hjärtan som finns -Thea och Noa
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
             }
         }
+        if (health == 0)
+        {
+            GameObject effect = Instantiate(DeatEffekt, transform.position, Quaternion.identity);
+            Destroy(effect, 0.5f);
+            Destroy(gameObject);
+            SceneManager.LoadScene(4);
 
-
+        }
     }
+    
+    public void OnCollisionEnter2D(Collision2D collision) // om man kolliderar med en fiende med enemy tagen så minskar ens liv -Noa och Thea
+    {
+        if (collision.transform.tag == "Enemy" || collision.transform.tag == "Enemy bullet")
+        {
+            health -= 1;
+            audioPlayer.PlaySound("playerhurt");
+        }
+        
+    }
+
 }
+
+

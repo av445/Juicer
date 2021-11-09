@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: fe7b13ebd2ed6a0479781358cf6f8177
+guid: 3d2a189b2ddffc247b14202602783e17
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8084900408810087907
-    second: Enemy1Upscaled_0
+      213: -6622948759952254545
+    second: Enemy2ProjectileUpscaled_0
   - first:
-      213: -9105423424748145772
-    second: Enemy1Upscaled_1
+      213: -1696898721026397358
+    second: Enemy2ProjectileUpscaled_1
   - first:
-      213: -7291834527144811859
-    second: Enemy1Upscaled_2
+      213: -3581701895750638364
+    second: Enemy2ProjectileUpscaled_2
   - first:
-      213: -6037425719587001669
-    second: Enemy1Upscaled_3
+      213: 6807709926416068139
+    second: Enemy2ProjectileUpscaled_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,29 +99,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy1Upscaled_0
+      name: Enemy2ProjectileUpscaled_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 320
-        height: 320
+        y: 60
+        width: 30
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,20 +117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e5298f0616533070800000000000000
-      internalID: 8084900408810087907
+      spriteID: fa99e65513f8614a0800000000000000
+      internalID: -6622948759952254545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy1Upscaled_1
+      name: Enemy2ProjectileUpscaled_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 320
-        height: 320
+        x: 30
+        y: 60
+        width: 30
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +138,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 493bd5643a903a180800000000000000
-      internalID: -9105423424748145772
+      spriteID: 25b28619a976378e0800000000000000
+      internalID: -1696898721026397358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy1Upscaled_2
+      name: Enemy2ProjectileUpscaled_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4a07c3a1d3b4ec0800000000000000
+      internalID: -3581701895750638364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2ProjectileUpscaled_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 320
+        width: 30
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,29 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2ea90a1233eca90800000000000000
-      internalID: -7291834527144811859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy1Upscaled_3
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 320
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbaa532bb41c63ca0800000000000000
-      internalID: -6037425719587001669
+      spriteID: b2e2ee9fb18d97e50800000000000000
+      internalID: 6807709926416068139
       vertices: []
       indices: 
       edges: []
